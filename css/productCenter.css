@@ -1,0 +1,103 @@
+.content {
+  padding: 1px; }
+  .content .cont1 {
+    width: 100%;
+    margin-top: 105px;
+    position: relative; }
+    .content .cont1 .bj img {
+      width: 100%; }
+    .content .cont1 .proBar {
+      position: absolute;
+      width: 100%;
+      bottom: -72px; }
+      .content .cont1 .proBar .container {
+        background-color: #fff; }
+        .content .cont1 .proBar .container .bar1 {
+          color: #333333; }
+          .content .cont1 .proBar .container .bar1 .b1-left {
+            float: left;
+            padding: 3px 37px; }
+            .content .cont1 .proBar .container .bar1 .b1-left .le-1 {
+              font-size: 20px;
+              margin-top: 10px; }
+            .content .cont1 .proBar .container .bar1 .b1-left .le-2 {
+              font-size: 12px; }
+          .content .cont1 .proBar .container .bar1 .b1-right > div {
+            font-size: 16px; }
+            .content .cont1 .proBar .container .bar1 .b1-right > div div {
+              padding: 30px 0; }
+              .content .cont1 .proBar .container .bar1 .b1-right > div div a {
+                color: #333333; }
+            .content .cont1 .proBar .container .bar1 .b1-right > div .sel {
+              background-color: #f6f6f6; }
+              .content .cont1 .proBar .container .bar1 .b1-right > div .sel a {
+                font-weight: bold;
+                color: #1471c2; }
+        .content .cont1 .proBar .container .bar2 {
+          font-size: 14px;
+          color: #c8c8c8;
+          background-color: #f6f6f6; }
+          .content .cont1 .proBar .container .bar2 span {
+            display: inline-block;
+            padding: 25px 0;
+            width: 4.1%; }
+          .content .cont1 .proBar .container .bar2 div {
+            padding: 25px 0; }
+            .content .cont1 .proBar .container .bar2 div a {
+              font-size: 14px;
+              color: #333333; }
+          .content .cont1 .proBar .container .bar2 .sel a {
+            font-weight: bold;
+            color: #1471c2; }
+  .content .cont2 {
+    background: url("../img/wrap1bj.png") no-repeat;
+    background-size: 100% 65%;
+    margin-bottom: 100px; }
+    .content .cont2 .container {
+      padding-top: 150px; }
+      .content .cont2 .container .row {
+        margin: 20px -15px; }
+        .content .cont2 .container .row .r-slide {
+          padding: 40px 0 0 0; }
+          .content .cont2 .container .row .r-slide a {
+            color: #555555; }
+            .content .cont2 .container .row .r-slide a .slide1 {
+              height: 280px;
+              margin-bottom: 10px; }
+              .content .cont2 .container .row .r-slide a .slide1 img {
+                height: 100%; }
+            .content .cont2 .container .row .r-slide a .slide2 {
+              margin-top: 30px;
+              padding: 20px 0; }
+              .content .cont2 .container .row .r-slide a .slide2 .slide-2 {
+                font-size: 18px; }
+              .content .cont2 .container .row .r-slide a .slide2 .slide-3 {
+                font-size: 13px; }
+        .content .cont2 .container .row .r-slide:hover {
+          -webkit-box-shadow: 0 0 10px #e3e2e2;
+          -moz-box-shadow: 0 0 10px #e3e2e2;
+          box-shadow: 0 0 10px #e3e2e2;
+          cursor: pointer; }
+          .content .cont2 .container .row .r-slide:hover a .slide2 {
+            background-color: #1471c2;
+            color: #fff; }
+      .content .cont2 .container .page ul li {
+        margin: 0 5px; }
+        .content .cont2 .container .page ul li a {
+          font-size: 14px;
+          color: #666666;
+          padding: 0.5rem .8rem;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px; }
+        .content .cont2 .container .page ul li .sel {
+          background-color: #1471c2 !important;
+          color: #fff !important; }
+        .content .cont2 .container .page ul li a:hover {
+          background-color: #fff; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content .cont1 .proBar .container .bar1 .b1-left {
+    padding: 3px 20px; } }
+
+/*# sourceMappingURL=productCenter.css.map */

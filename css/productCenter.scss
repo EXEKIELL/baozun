@@ -1,0 +1,151 @@
+.content{
+  padding: 1px;
+  .cont1{
+    width: 100%;
+    margin-top: 105px;
+    position: relative;
+    .bj{
+      img{
+        width: 100%;
+      }
+    }
+    .proBar{
+      position: absolute;
+      width: 100%;
+      bottom: -72px;
+      .container{
+        background-color: #fff;
+        .bar1{
+          color: #333333;
+          .b1-left{
+            float: left;
+            padding: 3px 37px;
+            .le-1{
+              font-size: 20px;
+              margin-top: 10px;
+            }
+            .le-2{
+              font-size: 12px;
+            }
+          }
+          .b1-right{
+            >div{
+              font-size: 16px;
+              div{
+                padding: 30px 0;
+                a{
+                  color: #333333;
+                }
+              }
+              .sel{
+                background-color: #f6f6f6;
+                a{
+                  font-weight: bold;
+                  color: #1471c2;
+                }
+              }
+            }
+          }
+        }
+        .bar2{
+          font-size: 14px;
+          color: #c8c8c8;
+          background-color: #f6f6f6;
+          span{
+            display: inline-block;
+            padding: 25px 0;
+            width: 4.1%;
+          }
+          div{
+            padding: 25px 0;
+            a{
+              font-size: 14px;
+              color: #333333;
+            }
+          }
+          .sel{
+            a{
+              font-weight: bold;
+              color: #1471c2;
+            }
+          }
+        }
+      }
+    }
+  }
+  .cont2{
+    background: url("../img/wrap1bj.png") no-repeat;
+    background-size: 100% 65%;
+    margin-bottom: 100px;
+    .container{
+      padding-top: 150px;
+      .row{
+        margin: 20px -15px;
+        .r-slide{
+          padding: 40px 0 0 0;
+          a{
+            color: #555555;
+            .slide1{
+              height: 280px;
+              margin-bottom: 10px;
+              img{
+                height: 100%;
+              }
+            }
+            .slide2{
+              margin-top: 30px;
+              padding: 20px 0;
+              .slide-2{
+                font-size: 18px;
+              }
+              .slide-3{
+                font-size: 13px;
+
+              }
+            }
+          }
+        }
+        .r-slide:hover{
+          -webkit-box-shadow: 0 0 10px #e3e2e2;
+          -moz-box-shadow: 0 0 10px #e3e2e2;
+          box-shadow: 0 0 10px #e3e2e2;
+          cursor: pointer;
+          a{
+            .slide2{
+              background-color: #1471c2;
+              color: #fff;
+            }
+          }
+        }
+      }
+      .page{
+
+        ul{
+          li{
+            margin: 0 5px;
+            a{
+              font-size: 14px;
+              color: #666666;
+              padding: 0.5rem .8rem;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+              border-radius: 3px;
+            }
+            .sel{
+              background-color: #1471c2!important;
+              color: #fff!important;
+            }
+            a:hover{
+                background-color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content .cont1 .proBar .container .bar1 .b1-left{
+    padding: 3px 20px;
+  }
+}
