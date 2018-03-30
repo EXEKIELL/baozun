@@ -3,6 +3,8 @@
   .content .swiper-container {
     width: 100%;
     margin-top: 105px; }
+    .content .swiper-container .swiper-wrapper .swiper-slide a img {
+      width: 100%; }
     .content .swiper-container .swiper-pagination .swiper-pagination-bullet {
       background-color: #fff;
       width: 5px;
@@ -244,7 +246,10 @@
     width: 90%; }
 
   .content .wrap2 .wrap2-list2 .wrap2-cont {
-    margin: 15px 0 4px 25px; } }
+    margin: 15px 0 4px 25px; }
+
+  .content .swiper-container {
+    margin-top: 0px; } }
 @media (max-width: 1168px) {
   .content .wrap2 .wrap2-list2 .wrap2-cont p {
     line-height: 27px; } }

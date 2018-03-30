@@ -3,6 +3,15 @@
   .swiper-container{
     width: 100%;
     margin-top: 105px;
+    .swiper-wrapper{
+      .swiper-slide{
+        a{
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
     .swiper-pagination{
       .swiper-pagination-bullet{
         background-color: #fff;
@@ -327,6 +336,9 @@
   }
   .content .wrap2 .wrap2-list2 .wrap2-cont{
     margin: 15px 0 4px 25px;
+  }
+  .content .swiper-container{
+    margin-top: 0px;
   }
 }
 @media (max-width: 1168px) {

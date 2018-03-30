@@ -99,5 +99,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .content .cont1 .proBar .container .bar1 .b1-left {
     padding: 3px 20px; } }
+@media (max-width: 1200px) {
+  .content .cont1 {
+    margin-top: 0px; } }
 
 /*# sourceMappingURL=productCenter.css.map */

@@ -1,0 +1,71 @@
+.content {
+  padding: 1px; }
+  .content .cont-1 {
+    margin-top: 105px;
+    padding: 20px 0;
+    border-bottom: 1px solid #d2d2d2; }
+    .content .cont-1 .container .cont1 .cont1-left .swiper1 {
+      height: 370px;
+      margin: auto; }
+      .content .cont-1 .container .cont1 .cont1-left .swiper1 .swiper-wrapper .swiper-slide {
+        cursor: pointer;
+        position: relative;
+        border: 1px solid #d2d2d2; }
+        .content .cont-1 .container .cont1 .cont1-left .swiper1 .swiper-wrapper .swiper-slide img {
+          width: 60%;
+          position: absolute;
+          top: 50%;
+          margin-top: -23.5px;
+          left: 50%;
+          margin-left: -19px; }
+      .content .cont-1 .container .cont1 .cont1-left .swiper1 .swiper-wrapper .sel {
+        border: 1px solid #1471c2; }
+    .content .cont-1 .container .cont1 .cont1-left .bigImg {
+      padding-left: 100px; }
+    .content .cont-1 .container .cont1 .cont1-right {
+      padding-right: 60px; }
+      .content .cont-1 .container .cont1 .cont1-right .spname {
+        font-size: 20px;
+        color: #333333;
+        font-weight: bold;
+        border-bottom: 1px solid #d2d2d2;
+        padding: 20px 0; }
+      .content .cont-1 .container .cont1 .cont1-right .spintr {
+        font-size: 14px;
+        color: #555555;
+        padding: 20px 0; }
+        .content .cont-1 .container .cont1 .cont1-right .spintr p {
+          text-align: justify;
+          line-height: 30px; }
+      .content .cont-1 .container .cont1 .cont1-right .right-list3 {
+        font-size: 16px;
+        color: #333333;
+        margin-top: 10px; }
+        .content .cont-1 .container .cont1 .cont1-right .right-list3 .list3-title {
+          font-weight: bold; }
+        .content .cont-1 .container .cont1 .cont1-right .right-list3 .row {
+          font-size: 14px;
+          padding-left: 15px; }
+          .content .cont-1 .container .cont1 .cont1-right .right-list3 .row span {
+            width: 5%;
+            text-align: center; }
+  .content .cont-2 {
+    margin: 80px 0 100px 0; }
+    .content .cont-2 .wrap-1 {
+      border: 1px solid #e5e5e5;
+      background-color: #f6f6f6;
+      font-size: 14px;
+      color: #333333;
+      padding: 20px 0; }
+      .content .cont-2 .wrap-1 .row {
+        margin: 30px 0; }
+    .content .cont-2 .wrap-2 .info {
+      padding: 5px; }
+      .content .cont-2 .wrap-2 .info img {
+        width: 100%; }
+
+@media (max-width: 1200px) {
+  .content .cont-1 .container .cont1 .cont1-left .swiper1 {
+    height: 320px; } }
+
+/*# sourceMappingURL=productCenter-xq.css.map */
