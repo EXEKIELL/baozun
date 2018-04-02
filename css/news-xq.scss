@@ -1,0 +1,106 @@
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.content{
+  padding: 1px;
+  .container{
+    margin-top: 205px;
+    .info{
+      padding: 2px;
+      margin-bottom: 100px;
+    }
+    .info-bottom{
+      >div{
+        padding: 20px 0;
+        background-color: #f6f6f6;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        a{
+          font-size: 16px;
+          color: #555555;
+          text-align: center;
+          .imgWrap{
+            height: 50px;
+          }
+          >span{
+          }
+          img{
+            visibility: hidden;
+          }
+          .div1{
+            margin-left: 50px;
+            span{
+              margin: 40px;
+            }
+          }
+          .div2{
+            span{
+              margin: 40px;
+            }
+          }
+          .prev{
+            width: 9%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            span{
+              position: absolute;
+              top: 50%;
+              left:50%;
+              margin-left: -25%;
+              margin-top: -28%;
+            }
+            .span2{
+              left: 40px;
+              margin-left: 0;
+              margin-top: -25%;
+              color: #c8c8c8;
+            }
+          }
+          .next{
+            width: 9%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            span{
+              position: absolute;
+              top: 50%;
+              right:50%;
+              margin-right: -25%;
+              margin-top: -28%;
+            }
+            .span1{
+              right: 40px;
+              margin-right: 0;
+              margin-top: -25%;
+              color: #c8c8c8;
+            }
+          }
+        }
+      }
+      .sel{
+        background-color: #1471c2;
+        a{
+
+        }
+        img{
+          visibility: initial;
+        }
+        a{
+          .color{
+            color: #fff!important;
+          }
+          .color1{
+            color: #438dce!important;
+          }
+        }
+      }
+    }
+  }
+}

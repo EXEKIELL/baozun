@@ -5,15 +5,18 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>新闻中心-详情</title>
+    <title>加入保尊-详情</title>
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="lib/css/layui.css">
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/news-xq.css">
+    <link rel="stylesheet" href="css/joinUs.css">
+    <link rel="stylesheet" href="css/joinUs-xq.css">
     <link rel="stylesheet" href="css/reset.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="lib/layui.js"></script>
 </head>
 <body>
 <header class="header">
@@ -28,7 +31,7 @@
                     <a href="产品中心.html">产品中心</a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="###">关于宝尊</a>
+                    <a href="关于保尊-公司简介.html">关于宝尊</a>
                 </li>
                 <li class="list-inline-item  sel">
                     <a href="###">新闻中心</a>
@@ -44,44 +47,56 @@
     </div>
 </header>
 <section class="content">
-     <div class="container">
-         <!--info 文本区-->
-         <div class="row info"></div>
-         <div class="row info-bottom">
-             <div class="col-6">
-                 <a class="clearfloat" href="###">
-                     <div class="d-inline-block">
-                         <div class="position-absolute prev">
-                             <span class="span1 color">
-                                &lt;
-                             </span>
-                             <span class="span2 color1">丨</span>
-                         </div>
-                         <div class="div1">
-                             <span class="color">保尊隶属于深圳市深森达科技有限公司旗</span>
-                             <img class="d-inline-block" src="img/img03.png" alt="">
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="col-6 sel">
-                 <a href="###" class="clearfloat">
-                     <div class="d-inline-block">
-                         <div class="div2">
-                             <img class="d-inline-block" src="img/img03.png" alt="">
-                             <span class="color">保尊隶属于深圳市深森达科技有限公司旗</span>
-                         </div>
-                         <div class="position-absolute next">
-                             <span class="span1 color1">丨</span>
-                             <span class="span2 color">
-                                 &gt;
-                             </span>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-         </div>
-     </div>
+    <div class="cont1">
+        <a class="bj" href="###">
+            <img src="img/bj06.png" alt="">
+        </a>
+        <div class="proBar">
+            <div class="container">
+                <div class="bar1 row">
+                    <div class="col-2 b1-left">
+                        <div class="le-1">加入保尊</div>
+                        <div class="le-2">JOIN BOZUN</div>
+                    </div>
+                    <div class="col-10 b1-right clearfloat">
+                        <form action="" class="layui-form">
+                            <div class="layui-input-block d-inline-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">返回</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="list1">
+            <div>客服专员</div>
+            <div class="row">
+                <div>
+                    <span class="d-inline-block"></span><span>2人</span>
+                </div>
+                <div>
+                    <span class="d-inline-block"></span><span>深圳</span>
+                </div>
+                <div>
+                    <span class="d-inline-block"></span><span>2017-08-07</span>
+                </div>
+            </div>
+            <button>立即申请</button>
+        </div>
+        <div class="list2">
+            <div class="slide">
+                <div>职位描述</div>
+                <ol>
+                    <li>有销售经验，富有挑战精神，个人销售能力突出且带领过团队优先。</li>
+                    <li>抗压力强，有亲和力，能增强团队凝聚力和向心力。</li>
+                    <li>敏锐的市场意识，丰富的营销渠道和客户资源，能带领团队挣大钱。</li>
+                    <li>熟悉图纸，有设计基础更佳。</li>
+                </ol>
+            </div>
+        </div>
+    </div>
 </section>
 <footer class="footer">
     <div class="container">
@@ -109,8 +124,14 @@
     </div>
     <div class="footer-bottom text-center">粤ICP备05098314  Copyright © 2015-2016 hengdikeji </div>
 </footer>
-<script src="js/public.js"></script>
-<script src="js/news-xq.js"></script>
-<script src="js/prpductCenter-xq.js"></script>
 </body>
+<script src="js/public.js"></script>
+<script src="js/news.js"></script>
+<script>
+    //一般直接写在一个js文件中
+    layui.use(['layer', 'form'], function(){
+        var layer = layui.layer
+            ,form = layui.form;
+    });
+</script>
 </html>

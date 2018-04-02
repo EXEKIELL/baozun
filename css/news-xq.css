@@ -1,0 +1,85 @@
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0; }
+
+.clearfloat {
+  zoom: 1; }
+
+.content {
+  padding: 1px; }
+  .content .container {
+    margin-top: 205px; }
+    .content .container .info {
+      padding: 2px;
+      margin-bottom: 100px; }
+    .content .container .info-bottom > div {
+      padding: 20px 0;
+      background-color: #f6f6f6;
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer; }
+      .content .container .info-bottom > div a {
+        font-size: 16px;
+        color: #555555;
+        text-align: center; }
+        .content .container .info-bottom > div a .imgWrap {
+          height: 50px; }
+        .content .container .info-bottom > div a img {
+          visibility: hidden; }
+        .content .container .info-bottom > div a .div1 {
+          margin-left: 50px; }
+          .content .container .info-bottom > div a .div1 span {
+            margin: 40px; }
+        .content .container .info-bottom > div a .div2 span {
+          margin: 40px; }
+        .content .container .info-bottom > div a .prev {
+          width: 9%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          display: inline-block;
+          vertical-align: middle;
+          position: relative; }
+          .content .container .info-bottom > div a .prev span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -25%;
+            margin-top: -28%; }
+          .content .container .info-bottom > div a .prev .span2 {
+            left: 40px;
+            margin-left: 0;
+            margin-top: -25%;
+            color: #c8c8c8; }
+        .content .container .info-bottom > div a .next {
+          width: 9%;
+          height: 100%;
+          top: 0;
+          right: 0;
+          display: inline-block;
+          vertical-align: middle;
+          position: relative; }
+          .content .container .info-bottom > div a .next span {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            margin-right: -25%;
+            margin-top: -28%; }
+          .content .container .info-bottom > div a .next .span1 {
+            right: 40px;
+            margin-right: 0;
+            margin-top: -25%;
+            color: #c8c8c8; }
+    .content .container .info-bottom .sel {
+      background-color: #1471c2; }
+      .content .container .info-bottom .sel img {
+        visibility: initial; }
+      .content .container .info-bottom .sel a .color {
+        color: #fff !important; }
+      .content .container .info-bottom .sel a .color1 {
+        color: #438dce !important; }
+
+/*# sourceMappingURL=news-xq.css.map */

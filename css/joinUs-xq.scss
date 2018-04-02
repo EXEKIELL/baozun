@@ -1,0 +1,78 @@
+.content{
+  .cont1{
+    .proBar{
+      .container{
+        .bar1{
+          .b1-right{
+            form{
+              width: 20%;
+              >div:first-child{
+                margin-left: 0;
+                width: 64%;
+                button{
+                  background-color: #fff;
+                  border: 1px solid #e4e4e4;
+                  color: #e4e4e4;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  >.container{
+    background-color: #f6f6f6;
+    padding: 0;
+    .list1{
+      padding: 30px 40px;
+      position: relative;
+      border-bottom: 1px solid #e4e4e4;
+      >div:first-child{
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+      }
+      >div:nth-child(2){
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666666;
+        padding: 0 15px;
+        >div{
+          margin-right: 40px;
+          span:nth-child(1){
+            width: 14px;
+            height: 14px;
+            background: url("../img/xingzhuang01.png") no-repeat;
+          }
+        }
+        >div:nth-child(2){
+          span:nth-child(1){
+            background: url("../img/xingzhuang02.png") no-repeat;
+          }
+        }
+        >div:nth-child(3){
+          span:nth-child(1){
+            background: url("../img/xingzhuang03.png") no-repeat;
+          }
+        }
+      }
+      button{
+        padding: 15px 40px;
+        background-color: #1471c2;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        margin-top: -1.6%;
+        right: 20px;
+      }
+    }
+    .list2{
+      .slide{
+        ol{
+          
+        }
+      }
+    }
+  }
+}
