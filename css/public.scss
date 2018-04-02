@@ -26,24 +26,32 @@ body{
   box-shadow: 1px 0 20px #d2d2d2;
   .container{
     .header-wrap{
-      .logo{
-        float: left;
-        margin-right: 15%;
-      }
-      ul{
-        float: right;
-        height: 100%;
-        li{
-          a{
-            font-size: 14px;
-            color: #333333;
-            padding: 40px;
+      width: 100%;
+      >div{
+        width: 100%;
+        .left{
+          float: left;
+          .logo{
           }
         }
-        .sel{
-          border-top: 2px solid #1471c2;
-          a{
-            color: #1471c2;
+        .right{
+          float: right;
+          ul{
+            height: 100%;
+            li{
+              float: left;
+              a{
+                font-size: 14px;
+                color: #333333;
+                padding: 40px;
+              }
+            }
+            .sel{
+              border-top: 2px solid #1471c2;
+              a{
+                color: #1471c2;
+              }
+            }
           }
         }
       }
@@ -74,8 +82,14 @@ body{
         .right-1{
           font-size: 46px;
         }
+        .right-2{
+          font-size: 14px;
+        }
         .right1{
-          margin: 15px 0 35px 0;
+          margin: 15px 0 20px 0;
+        }
+        .right2{
+          font-size: 16px;
         }
       }
     }

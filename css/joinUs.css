@@ -31,6 +31,9 @@
             .content .cont1 .proBar .container .bar1 .b1-right form .layui-input-block {
               margin: 0 10px;
               width: 30%; }
+              .content .cont1 .proBar .container .bar1 .b1-right form .layui-input-block input {
+                font-size: 16px;
+                color: #888888; }
             .content .cont1 .proBar .container .bar1 .b1-right form > div:last-child {
               width: 15%; }
               .content .cont1 .proBar .container .bar1 .b1-right form > div:last-child button {

@@ -12,5 +12,5 @@ var mySwiper2 = new Swiper('.swiper2',{
     slidesPerView: 3,
     slidesPerColumn: 2,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 25
 })

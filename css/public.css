@@ -24,20 +24,26 @@ body {
   -webkit-box-shadow: 1px 0 20px #d2d2d2;
   -moz-box-shadow: 1px 0 20px #d2d2d2;
   box-shadow: 1px 0 20px #d2d2d2; }
-  .header .container .header-wrap .logo {
-    float: left;
-    margin-right: 15%; }
-  .header .container .header-wrap ul {
-    float: right;
-    height: 100%; }
-    .header .container .header-wrap ul li a {
-      font-size: 14px;
-      color: #333333;
-      padding: 40px; }
-    .header .container .header-wrap ul .sel {
-      border-top: 2px solid #1471c2; }
-      .header .container .header-wrap ul .sel a {
-        color: #1471c2; }
+  .header .container .header-wrap {
+    width: 100%; }
+    .header .container .header-wrap > div {
+      width: 100%; }
+      .header .container .header-wrap > div .left {
+        float: left; }
+      .header .container .header-wrap > div .right {
+        float: right; }
+        .header .container .header-wrap > div .right ul {
+          height: 100%; }
+          .header .container .header-wrap > div .right ul li {
+            float: left; }
+            .header .container .header-wrap > div .right ul li a {
+              font-size: 14px;
+              color: #333333;
+              padding: 40px; }
+          .header .container .header-wrap > div .right ul .sel {
+            border-top: 2px solid #1471c2; }
+            .header .container .header-wrap > div .right ul .sel a {
+              color: #1471c2; }
 
 .footer {
   background-color: #333333; }
@@ -54,8 +60,12 @@ body {
       color: #ffffff; }
       .footer .container .footer-wrap .foot-right .right-1 {
         font-size: 46px; }
+      .footer .container .footer-wrap .foot-right .right-2 {
+        font-size: 14px; }
       .footer .container .footer-wrap .foot-right .right1 {
-        margin: 15px 0 35px 0; }
+        margin: 15px 0 20px 0; }
+      .footer .container .footer-wrap .foot-right .right2 {
+        font-size: 16px; }
   .footer .footer-bottom {
     font-size: 14px;
     color: #666666;

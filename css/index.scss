@@ -1,11 +1,11 @@
 .content{
   padding: 1px;
-  .swiper-container{
+  >.swiper-container{
     width: 100%;
     margin-top: 105px;
-    .swiper-wrapper{
-      .swiper-slide{
-        a{
+    >.swiper-wrapper{
+      >.swiper-slide{
+        >a{
           img{
             width: 100%;
           }
@@ -85,6 +85,7 @@
           padding: 10px;
           .swiper-slide{
             padding: 30px 0 0 0;
+            margin-left: -5px;
             a{
               color: #555555;
               .slide1{
@@ -237,6 +238,13 @@
         .w3l2-slide{
           padding: 15px 15px;
           cursor: pointer;
+          >div{
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+          }
           .slide-top{
             padding: 20px 0;
             >div{
@@ -280,11 +288,13 @@
           }
         }
         .w3l2-slide:hover{
-          background-color: #fff;
-          -webkit-box-shadow: 0 0 10px #e3e2e2;
-          -moz-box-shadow: 0 0 10px #e3e2e2;
-          box-shadow: 0 0 10px #e3e2e2;
-          transform: translateY(-50px);
+          >div{
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 10px #e3e2e2;
+            -moz-box-shadow: 0 0 10px #e3e2e2;
+            box-shadow: 0 0 10px #e3e2e2;
+            transform: translateY(-30px);
+          }
         }
       }
     }

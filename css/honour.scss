@@ -34,6 +34,11 @@
           padding: 0 0 0 0;
           a{
             padding: 20px 0 0 0;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
             .slide1{
               height: unset;
               width: 90%;

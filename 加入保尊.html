@@ -20,35 +20,43 @@
 <body>
 <header class="header">
     <div class="container">
-        <nav class="header-wrap row">
-            <img class="logo" src="img/logo.png" alt="">
-            <ul id="navtab" class="list-inline">
-                <li class="list-inline-item">
-                    <a href="index.html">首页</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="产品中心.html">产品中心</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="关于保尊-公司简介.html">关于宝尊</a>
-                </li>
-                <li class="list-inline-item  sel">
-                    <a href="###">新闻中心</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="###">加入保障</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="###">联系我们</a>
-                </li>
-            </ul>
+        <nav class="header-wrap row clearfloat">
+            <div>
+                <div class="left">
+                    <a class="logo" href="###">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <ul id="navtab" class="clearfloat">
+                        <li class="">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="">
+                            <a href="产品中心.html">产品中心</a>
+                        </li>
+                        <li class="">
+                            <a href="关于保尊-公司简介.html">关于宝尊</a>
+                        </li>
+                        <li class="">
+                            <a href="新闻中心.html">新闻中心</a>
+                        </li>
+                        <li class=" sel">
+                            <a href="加入保尊.html">加入保尊</a>
+                        </li>
+                        <li class="">
+                            <a href="联系我们.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </div>
 </header>
 <section class="content">
     <div class="cont1">
         <a class="bj" href="###">
-            <img src="img/bj05.png" alt="">
+            <img src="img/bj06.png" alt="">
         </a>
         <div class="proBar">
             <div class="container">
@@ -269,12 +277,5 @@
 </footer>
 </body>
 <script src="js/public.js"></script>
-<script src="js/news.js"></script>
-<script>
-    //一般直接写在一个js文件中
-    layui.use(['layer', 'form'], function(){
-        var layer = layui.layer
-            ,form = layui.form;
-    });
-</script>
+<script src="js/joinUs.js"></script>
 </html>

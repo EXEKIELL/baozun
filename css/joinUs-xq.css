@@ -1,15 +1,22 @@
-.content .cont1 .proBar .container .bar1 .b1-right form {
-  width: 20%; }
-  .content .cont1 .proBar .container .bar1 .b1-right form > div:first-child {
+@charset "UTF-8";
+.content .cont1 .proBar .container .bar1 .b1-right {
+  position: relative; }
+  .content .cont1 .proBar .container .bar1 .b1-right > div:first-child {
     margin-left: 0;
-    width: 64%; }
-    .content .cont1 .proBar .container .bar1 .b1-right form > div:first-child button {
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    margin-top: -1.9%;
+    right: 50px; }
+    .content .cont1 .proBar .container .bar1 .b1-right > div:first-child button {
+      width: 100%;
       background-color: #fff;
       border: 1px solid #e4e4e4;
       color: #e4e4e4; }
 .content > .container {
   background-color: #f6f6f6;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 100px; }
   .content > .container .list1 {
     padding: 30px 40px;
     position: relative;
@@ -41,5 +48,29 @@
       top: 50%;
       margin-top: -1.6%;
       right: 20px; }
+  .content > .container .list2 {
+    padding: 0 50px; }
+    .content > .container .list2 .slide {
+      margin: 50px 0; }
+      .content > .container .list2 .slide > div {
+        font-size: 16px;
+        color: #333333;
+        font-weight: bold; }
+      .content > .container .list2 .slide ol {
+        list-style-type: none;
+        counter-reset: sectioncounter; }
+        .content > .container .list2 .slide ol li:before {
+          content: counter(sectioncounter) "、";
+          counter-increment: sectioncounter; }
+        .content > .container .list2 .slide ol li {
+          font-size: 14px;
+          color: #555555;
+          margin: 10px 0; }
+    .content > .container .list2 .slide2 {
+      padding-bottom: 50px; }
+      .content > .container .list2 .slide2 ul li {
+        margin: 10px 0;
+        font-size: 14px;
+        color: #555555; }
 
 /*# sourceMappingURL=joinUs-xq.css.map */
