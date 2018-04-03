@@ -19,8 +19,7 @@ $(function () {
         $('html , body').animate({scrollTop: 0},'slow');
     })
     $(window).scroll(function (e) {
-        console.log($(document).scrollTop())
-        if($(document).scrollTop()>1800){
+        if($(document).scrollTop()>700){
             $('.bottom').addClass('d-block')
         }else{
             $('.bottom').removeClass('d-block')

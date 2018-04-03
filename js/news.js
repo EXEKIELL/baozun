@@ -11,4 +11,7 @@ $(function () {
             console.log($.inArray("disabled",$(this).siblings('li')))
         }
     })
+    $('.list1>a,.list3>button').click(function () {
+        window.location.href="新闻中心-详情.html";
+    })
 })
