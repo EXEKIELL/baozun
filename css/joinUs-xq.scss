@@ -106,3 +106,183 @@
     }
   }
 }
+#shenqingWrap{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  .wrap2{
+    background-color: #fff;
+    width: 650px;
+    height: 800px;
+    .bj{
+      background: url("../img/bj08.png") no-repeat;
+      background-size: 100% 100%;
+      padding: 25px;
+      .cont{
+        border: 1px solid #c8c8c8;
+        padding: 0 80px;
+        >div:first-child{
+          position: relative;
+          margin: 50px 0;
+          >div:nth-child(1){
+            text-align: center;
+            div:first-child{
+              font-size: 30px;
+              color: #1471c2;
+              font-weight: bold;
+            }
+            div:last-child{
+              font-size: 14px;
+              color: #1471c2;
+            }
+          }
+          span{
+            display: block;
+            position: absolute;
+            background: url("../img/icon04.png") no-repeat;
+            background-size: 100% 100%;
+            width: 16px;
+            height: 16px;
+            top: -30px;
+            right: -60px;
+            cursor: pointer;
+          }
+        }
+        >div:first-child::after{
+          content: '';
+          position: absolute;
+          display: block;
+          height: 1px;
+          width: 60px;
+          background-color: #1471c2;
+          top: 57%;
+          right: 18%;
+        }
+        >div:first-child::before{
+          content: '';
+          position: absolute;
+          display: block;
+          height: 1px;
+          width: 60px;
+          background-color: #1471c2;
+          top: 57%;
+          left: 18%;
+        }
+        >div:nth-child(2){
+          form{
+            >div{
+              display: flex;
+              align-items: center;
+              margin-bottom: 30px;
+            }
+            >div:nth-child(1),>div:nth-child(2){
+              border: 1px solid #c8c8c8;
+              padding: 10px  ;
+              span{
+                display: inline-block;
+                margin-right: 10px;
+                width: 16px;
+                height: 16px;
+              }
+              span.num1{
+                background: url("../img/icon02.png") no-repeat;
+                background-size: 100% 100%;
+              }
+              span.num2{
+                background: url("../img/icon02_sel.png") no-repeat;
+                background-size: 100% 100%;
+              }
+              input{
+                border: 0;
+                font-size: 16px;
+                background-color: transparent;
+                width: 100%;
+              }
+              input::placeholder{
+                font-size: 16px;
+                color: #888888;
+              }
+            }
+            >div:nth-child(2){
+              span.num1{
+                background: url("../img/icon03.png") no-repeat;
+                background-size: 100% 100%;
+              }
+              span.num2{
+                background: url("../img/icon03_sel.png") no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+            >div:nth-child(3){
+              width: 100%;
+              border: 1px solid #c8c8c8;
+              textarea{
+                width: 100%;
+                padding: 20px;
+                font-size: 16px;
+                height: 120px;
+                resize:none;
+                border: 0;
+                background-color: transparent;
+              }
+              textarea::placeholder{
+                color: #888888;
+                font-size: 16px;
+              }
+            }
+            >div:nth-child(4){
+              margin-bottom: 50px;
+              span:first-child{
+                font-size: 16px;
+                color: #888888;
+                margin-right: 15px;
+              }
+              >div:nth-child(2){
+                width: 160px;
+                height: 60px;
+                position: relative;
+                background-color: #ebf6ff;
+                border: 1px solid #b7dbfa;
+                input{
+                  width: 100%;
+                  height: 100%;
+                  opacity: 0;
+                  position: absolute;
+                  cursor: pointer!important;
+                }
+                button{
+                  width: 100%;
+                  height: 100%;
+                  font-size: 16px;
+                  color: #1471c2;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  background-color: transparent;
+                }
+              }
+            }
+            >div:nth-child(5){
+              width: 100%;
+              button{
+                width: 100%;
+                background-color: #1471c2;
+                font-size: 20px;
+                color: #ffffff;
+                height: 60px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

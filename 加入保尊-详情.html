@@ -19,6 +19,35 @@
     <script src="lib/layui.js"></script>
 </head>
 <body>
+<div id="shenqingWrap">
+    <div class="wrap2">
+        <div class="bj">
+            <div class="cont">
+                <div>
+                    <div>
+                        <div>申请职位</div>
+                        <div>Apply for a position</div>
+                    </div>
+                    <span class="closeShenqing"></span>
+                </div>
+                <div>
+                    <form>
+                        <div class="shenqingWrite">
+                            <span class="num1"></span>
+                            <input type="text" placeholder="姓名">
+                        </div>
+                        <div class="shenqingWrite">
+                            <span class="num1"></span>
+                            <input type="text" placeholder="手机号码"></div>
+                        <div class="shenqingWrite"><textarea placeholder="自我描述" cols="30" rows="10"></textarea></div>
+                        <div><span>上传简历</span><div><input type="file"><button>选择文件</button></div></div>
+                        <div><button id="tijiaoBtn">确认提交</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <header class="header">
     <div class="container">
         <nav class="header-wrap row clearfloat">
@@ -89,7 +118,7 @@
                     <span class="d-inline-block"></span><span>2017-08-07</span>
                 </div>
             </div>
-            <button>立即申请</button>
+            <button id="shenqing">立即申请</button>
         </div>
         <div class="list2">
             <div class="slide">

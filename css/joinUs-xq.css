@@ -73,4 +73,149 @@
         font-size: 14px;
         color: #555555; }
 
+#shenqingWrap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+  align-items: center; }
+  #shenqingWrap .wrap2 {
+    background-color: #fff;
+    width: 650px;
+    height: 800px; }
+    #shenqingWrap .wrap2 .bj {
+      background: url("../img/bj08.png") no-repeat;
+      background-size: 100% 100%;
+      padding: 25px; }
+      #shenqingWrap .wrap2 .bj .cont {
+        border: 1px solid #c8c8c8;
+        padding: 0 80px; }
+        #shenqingWrap .wrap2 .bj .cont > div:first-child {
+          position: relative;
+          margin: 50px 0; }
+          #shenqingWrap .wrap2 .bj .cont > div:first-child > div:nth-child(1) {
+            text-align: center; }
+            #shenqingWrap .wrap2 .bj .cont > div:first-child > div:nth-child(1) div:first-child {
+              font-size: 30px;
+              color: #1471c2;
+              font-weight: bold; }
+            #shenqingWrap .wrap2 .bj .cont > div:first-child > div:nth-child(1) div:last-child {
+              font-size: 14px;
+              color: #1471c2; }
+          #shenqingWrap .wrap2 .bj .cont > div:first-child span {
+            display: block;
+            position: absolute;
+            background: url("../img/icon04.png") no-repeat;
+            background-size: 100% 100%;
+            width: 16px;
+            height: 16px;
+            top: -30px;
+            right: -60px;
+            cursor: pointer; }
+        #shenqingWrap .wrap2 .bj .cont > div:first-child::after {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 1px;
+          width: 60px;
+          background-color: #1471c2;
+          top: 57%;
+          right: 18%; }
+        #shenqingWrap .wrap2 .bj .cont > div:first-child::before {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 1px;
+          width: 60px;
+          background-color: #1471c2;
+          top: 57%;
+          left: 18%; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div {
+          display: flex;
+          align-items: center;
+          margin-bottom: 30px; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1), #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) {
+          border: 1px solid #c8c8c8;
+          padding: 10px; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1) span, #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) span {
+            display: inline-block;
+            margin-right: 10px;
+            width: 16px;
+            height: 16px; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1) span.num1, #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) span.num1 {
+            background: url("../img/icon02.png") no-repeat;
+            background-size: 100% 100%; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1) span.num2, #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) span.num2 {
+            background: url("../img/icon02_sel.png") no-repeat;
+            background-size: 100% 100%; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1) input, #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) input {
+            border: 0;
+            font-size: 16px;
+            background-color: transparent;
+            width: 100%; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(1) input::placeholder, #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) input::placeholder {
+            font-size: 16px;
+            color: #888888; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) span.num1 {
+          background: url("../img/icon03.png") no-repeat;
+          background-size: 100% 100%; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(2) span.num2 {
+          background: url("../img/icon03_sel.png") no-repeat;
+          background-size: 100% 100%; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(3) {
+          width: 100%;
+          border: 1px solid #c8c8c8; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(3) textarea {
+            width: 100%;
+            padding: 20px;
+            font-size: 16px;
+            height: 120px;
+            resize: none;
+            border: 0;
+            background-color: transparent; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(3) textarea::placeholder {
+            color: #888888;
+            font-size: 16px; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(4) {
+          margin-bottom: 50px; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(4) span:first-child {
+            font-size: 16px;
+            color: #888888;
+            margin-right: 15px; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(4) > div:nth-child(2) {
+            width: 160px;
+            height: 60px;
+            position: relative;
+            background-color: #ebf6ff;
+            border: 1px solid #b7dbfa; }
+            #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(4) > div:nth-child(2) input {
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              position: absolute;
+              cursor: pointer !important; }
+            #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(4) > div:nth-child(2) button {
+              width: 100%;
+              height: 100%;
+              font-size: 16px;
+              color: #1471c2;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              background-color: transparent; }
+        #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(5) {
+          width: 100%; }
+          #shenqingWrap .wrap2 .bj .cont > div:nth-child(2) form > div:nth-child(5) button {
+            width: 100%;
+            background-color: #1471c2;
+            font-size: 20px;
+            color: #ffffff;
+            height: 60px; }
+
 /*# sourceMappingURL=joinUs-xq.css.map */
